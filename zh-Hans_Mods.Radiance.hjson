@@ -1,7 +1,7 @@
 Common: {
-	RecallBlocked: You can't use that right now
-	RecallBlockedByOpeningAttack: You must survive the next attack before you can teleport away!
-	RecallBlockedByMultipleOpeningAttacks: You must survive the next {0} attacks before you can teleport away!
+	RecallBlocked: 你现在无法使用它
+	RecallBlockedByOpeningAttack: 你必须挺过下一次攻击后才能传送离开！
+	RecallBlockedByMultipleOpeningAttacks: 你必须挺过下{0}次攻击后才能传送离开！
 	InsigniaConflict0: Mutually exclusive with [i:4823]Empress Wings while [i:Radiance/RadiantCharm]Radiant Charm is equipped
 	InsigniaConflict1: No stats will be gained
 	LightsWrathCurseCritter: Light's Wrath prevents you from harming this creature!
@@ -9,8 +9,8 @@ Common: {
 }
 
 DropConditions: {
-	RadiantCharm: Drops if the Empress of Light is defeated during daytime
-	RadiantDye: Drops if the Empress of Light is defeated during daytime without taking any damage from her attacks
+	RadiantCharm: 在白天击败光之女皇时掉落
+	RadiantDye: 在白天击败光之女皇，且不受到任何伤害时掉落
 }
 
 DeathMessages: {
@@ -26,9 +26,9 @@ DeathMessages: {
 	RuinDeath2Alt: "{0} was erased from {2} by {1}."
 	# Sun Dance death messages. {0} is the player's name, contact damage variant is occasionally used when the player dies to boss contact damage instead of projectiles
 	SunDanceContactDamageRare: "{0} received an uncomfortably warm hug."
-	SunDance0: "{0} fell into the sun."
-	SunDance1: "{0} got vaporized."
-	SunDance2: "{0} returned to stardust."
+	SunDance0: "{0}掉进了太阳里。."
+	SunDance1: "{0}被蒸发了。"
+	SunDance2: "{0}回归星尘。"
 	SunDance3: "{0} didn't quite reach orbit."
 }
 
