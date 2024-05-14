@@ -25,11 +25,11 @@ DeathMessages: {
 	RuinDeath0Alt: "{0} was banished from existence by {1}."
 	RuinDeath2Alt: "{0} was erased from {2} by {1}."
 	# Sun Dance death messages. {0} is the player's name, contact damage variant is occasionally used when the player dies to boss contact damage instead of projectiles
-	SunDanceContactDamageRare: "{0} received an uncomfortably warm hug."
-	SunDance0: "{0}掉进了太阳里。."
+	SunDanceContactDamageRare: "{0}得到了一个并不怎么舒服的温暖拥抱。"
+	SunDance0: "{0}坠入烈日之中。."
 	SunDance1: "{0}被蒸发了。"
 	SunDance2: "{0}回归星尘。"
-	SunDance3: "{0} didn't quite reach orbit."
+	SunDance3: "{0}没能到达预定轨道。"
 }
 
 Buffs: {
@@ -66,14 +66,14 @@ Items: {
 	}
 
 	CrystalBell: {
-		DisplayName: Crystal Bell
+		DisplayName: 辉晶铃铛
 		Tooltip: "\n\n"
-		NormalTooltip: Summons the Empress of Light
-		CrackedTooltip: Summons the Empress of Light in her peak form
-		CrackedTooltipCursed: You will perish.
+		NormalTooltip: 召唤光之女皇
+		CrackedTooltip: 召唤光之女皇的巅峰状态
+		CrackedTooltipCursed: 你在自取灭亡。
 		UnsummonTooltip: Practice: Use again to dismiss
-		OnlyUseDuringDayTooltip: Only usable during the day
-		OnlyUseDuringDayDontDigUpTooltip: Only usable on the surface during the day
+		OnlyUseDuringDayTooltip: 仅能在白天使用
+		OnlyUseDuringDayDontDigUpTooltip: 仅能在白天地表使用
 		CanUseAtNightTooltip: Config setting allows use at night
 	}
 
