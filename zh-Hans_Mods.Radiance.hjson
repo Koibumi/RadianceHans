@@ -136,7 +136,7 @@ Dialogue: {
 	PostSummonSecret2: 准备好目睹我真正的实力了吗？
 
 	PostOpeningAttack: {
-		FirstTry0: 真快啊。
+		FirstTry0: 真是敏捷。
 		FirstTry1: 你的技巧真是无比出色。
 		FirstTry2: 让我看看你还能坚持多久……
 		# --
@@ -156,18 +156,18 @@ Dialogue: {
 
 	Victory: {
 		# Empowered nighttime (only possible with custom setting, no major rewards)
-		Invalid0: ...
-		Invalid1: That's it?
-		Invalid2: My powers were kind of disappointing this time, weren't they?
-		Invalid3: Well, I suppose I should give you a reward of some sort.
-		Invalid4: If you want something greater you will have to challenge me when my abilities aren't so weak.
-		Invalid5: Take these for now.
-		Invalid3Alt: Well, I suppose I should give you something for your effort.
-		Invalid5Alt: Take these for now. They may be of some use to you.
+		Invalid0: ……
+		Invalid1: 这就没了？
+		Invalid2: 这次我的力量可有点令人失望，不是吗？
+		Invalid3: 好吧，我想我应该给你点奖励。
+		Invalid4: 如果你想要更丰厚的奖励，你应该在我能力还没那么弱的时候挑战我。
+		Invalid5: 现在，拿着这些吧。
+		Invalid3Alt: 好吧，我想我应该给你点东西作为你努力的回报。
+		Invalid5Alt: 现在，拿着这些吧。它们可能对你有点帮助。
 		# Regular daytime victory
-		Default0: Impressive.
-		Default1: I have to admit,
-		Default2: You're certainly stronger than you look.
+		Default0: 令人钦佩。
+		Default1: 我不得不承认，
+		Default2: 你远比看上去更加强大。
 		Default3: Those butterflies are special to me, but as long as you leave them alone, we can share this world without issue.
 		Default4: I have something for you. An offering of peace, perhaps?
 		Default5: Do not misuse it.
