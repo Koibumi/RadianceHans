@@ -71,37 +71,37 @@ Items: {
 		NormalTooltip: 召唤光之女皇
 		CrackedTooltip: 召唤光之女皇的巅峰状态
 		CrackedTooltipCursed: 你在自取灭亡。
-		UnsummonTooltip: Practice: Use again to dismiss
+		UnsummonTooltip: 练习模式：再次使用以解除
 		OnlyUseDuringDayTooltip: 仅能在白天使用
 		OnlyUseDuringDayDontDigUpTooltip: 仅能在白天地表使用
-		CanUseAtNightTooltip: Config setting allows use at night
+		CanUseAtNightTooltip: 在配置中设置后可以在晚上使用
 	}
 
 	RadiantCharm: {
-		DisplayName: Radiant Charm
+		DisplayName: 辐光护符
 		Tooltip:
 			'''
-			Imbues prismatic items with the power of the sun
+			将太阳之力注入棱晶物品中
 			-
 			'''
-		HiddenWarningTooltip: Application to a particular insect may have disastrous consequences...
+		HiddenWarningTooltip: 将其应用于某只特定的昆虫可能会产生灾难性的后果……
 	}
 
 	RadiantDye: {
-		DisplayName: Radiant Dye
+		DisplayName: 辐光染料
 		Tooltip: ""
 	}
 }
 
 RadiantCharmSynergies: {
-	BaseHint: Empowered by the sun...?
-	BaseEmpowered: "[i:Radiance/RadiantCharm]Empowered by the sun!"
+	BaseHint: 赐福于太阳……？
+	BaseEmpowered: "[i:Radiance/RadiantCharm]赐福于太阳！"
 	RadiantWeaponDamageBonus: +{0}
-	RadiantWeaponMultiplierTooltip: "{0}x damage"
+	RadiantWeaponMultiplierTooltip: "{0}倍伤害"
 	RadiantEmpressWings:
 		'''
-		Infinite flight time, faster acceleration and flight speed
-		Allows quick travel in water and partially normalizes gravity in space
+		无限的飞行时间，更快的加速度和飞行速度
+		在水中可快速移动，并在一定程度上使太空重力恢复正常
 		Hold DOWN to hover, or UP to ascend faster and descend slower
 		'''
 	RadiantEventide:
@@ -122,37 +122,37 @@ RadiantCharmSynergies: {
 }
 
 Projectiles: {
-	Gift.DisplayName: Gift
-	MeltingLight.DisplayName: Melting Light
-	RadiantBeam.DisplayName: Radiant Beam
-	RadiantBolt.DisplayName: Concentrated Light
-	EventideLaser.DisplayName: Transient Lance
-	TransientLance.DisplayName: Transient Lance
+	Gift.DisplayName: 礼物
+	MeltingLight.DisplayName: 熔融之光
+	RadiantBeam.DisplayName: 辐光射线
+	RadiantBolt.DisplayName: 聚光
+	EventideLaser.DisplayName: 瞬变长枪
+	TransientLance.DisplayName: 瞬变长枪
 }
 
 Dialogue: {
-	PostSummonSecret0: With my very own gift to you...
-	PostSummonSecret1: Alright then.
-	PostSummonSecret2: Ready to see what I'm really capable of?
+	PostSummonSecret0: 这是我送给你的礼物……
+	PostSummonSecret1: 好了。
+	PostSummonSecret2: 准备好目睹我真正的实力了吗？
 
 	PostOpeningAttack: {
-		FirstTry0: That was quick.
-		FirstTry1: Your skills truly are remarkable.
-		FirstTry2: Let's see how long you last...
+		FirstTry0: 真快啊。
+		FirstTry1: 你的技巧真是无比出色。
+		FirstTry2: 让我看看你还能坚持多久……
 		# --
-		FewTries0: Still alive, huh?
-		FewTries1: I hope you understand what you're getting yourself into.
+		FewTries0: 啊哈，还没死？
+		FewTries1: 我希望你能明白这会给你带来什么。
 		# --
-		ManyTries0: You survived.
-		ManyTries1: Are you sure this is necessary?.
-		ManyTries2: It doesn't have to be this way...
+		ManyTries0: 你活下来了。
+		ManyTries1: 你确定这一切有必要吗？
+		ManyTries2: 没必要非得这样做……
 	}
 
-	BellCutscene0: You're going to make those critters extinct at this rate.
-	BellCutsceneAlt0: You really don't like those butterflies, huh?
-	BellCutscene1: I have an idea.
-	BellCutsceneAlt1: I have a solution to this.
-	BellCutscene2: How about you ring this to summon me instead?
+	BellCutscene0: 你要是再这样下去，这些生物都要灭绝了。
+	BellCutsceneAlt0: 哈，你是真的很讨厌这些蝴蝶是吗？
+	BellCutscene1: 我有个点子。
+	BellCutsceneAlt1: 我有个解决办法。
+	BellCutscene2: 你摇动一下这个来召唤我，怎么样？
 
 	Victory: {
 		# Empowered nighttime (only possible with custom setting, no major rewards)
