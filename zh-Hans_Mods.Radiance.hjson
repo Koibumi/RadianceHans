@@ -4,8 +4,8 @@ Common: {
 	RecallBlockedByMultipleOpeningAttacks: 你必须挺过下{0}次攻击后才能传送离开！
 	InsigniaConflict0: [i:Radiance/RadiantCharm]辐光护符装备时会与[i:4823]女皇之翼冲突
 	InsigniaConflict1: 不会获得任何属性加成
-	LightsWrathCurseCritter: 光之怒阻止你伤害这个生物！
-	LightsWrathCurseBoss: 光之怒阻止你伤害这个实体！
+	LightsWrathCurseCritter: 神光忿怒阻止你伤害这个生物！
+	LightsWrathCurseBoss: 神光忿怒阻止你伤害这个实体！
 }
 
 DropConditions: {
@@ -53,7 +53,7 @@ Buffs: {
 
 Items: {
 	AnomalousArtifact: {
-		DisplayName: 光之怒
+		DisplayName: 神光忿怒
 		SpeedTooltip: Increases player speed and reach
 		ShieldTooltip: Provides a shield that blocks at least one instance of damage every {0} seconds and prevents most debuffs while active
 		OnHitTooltip: Projectile attacks have a chance to lifesteal and Radiant Beams periodically appear while attacking
@@ -77,7 +77,7 @@ Items: {
 	}
 
 	RadiantCharm: {
-		DisplayName: 辐光护符
+		DisplayName: 辐光神韵
 		Tooltip:
 			'''
 			将太阳之力注入棱镜物品中
@@ -187,18 +187,18 @@ Dialogue: {
 		Secret5: 现在，我将我最后的礼物送给你。它又是否会标志着你旅途的结束？
 		# Secret nohit victory
 		SecretNohit0: 不，绝无可能！
-		SecretNohit1: 已用尽了全部的力量，我却仍然无法伤你分毫？！
+		SecretNohit1: 我已用尽了全部的力量，却仍然无法伤你分毫？！
 		SecretNohit2: ……
 		SecretNohit3: 我一直相信我的力量无可匹敌。但现在看来，这是多么的傲慢……
 		SecretNohit4: 像往常一样，我给你准备了一份礼物，但你刚才的表现让我开始怀疑对你而言，它是否有任何用途。
 		SecretNohit5: 无论如何，它现在是你的了。
 		# Regular nighttime victory but under a very short kill time, complains about it. {0} is the time in seconds
-		NighttimeTooFast0: It's over already?
-		NighttimeTooFast1: "{0}{^0:second;seconds}? I hate nighttime..."
-		NighttimeTooFast2: Can't we do this when it's brighter outside?
+		NighttimeTooFast0: 结束了？
+		NighttimeTooFast1: "{0}{^0:second;seconds}？我讨厌夜晚……"
+		NighttimeTooFast2: 我们就不能在外边更亮堂时再战斗吗？
 		# Regular nighttime victory with no damage, gives Terraprisma (and complains about it)
-		NighttimeTerraprisma0: Trying to show off?
-		NighttimeTerraprisma1: Are you trying to impress me?
+		NighttimeTerraprisma0: 想要炫耀自己的实力？
+		NighttimeTerraprisma1: 你是想让我为此钦佩你吗？
 	}
 
 	Phase3Transform0: Already?
@@ -213,20 +213,20 @@ Dialogue: {
 
 Configs: {
 	Client: {
-		DisplayName: Client
+		DisplayName: 客户端
 
 		nighttimeGlow: {
-			Label: Nighttime Glow
-			Tooltip: Applies a glow effect to boss projectiles at night.
+			Label: 夜间光效
+			Tooltip: 在夜晚对boss弹幕施加发光效果。
 		}
 
 		blueFix: {
-			Label: Blue Fix
-			Tooltip: For whatever reason, tModloader makes daytime empress blue on certain days. This setting reverts that.
+			Label: 蓝色修复
+			Tooltip: 出于未知原因，tModloader在某些时候让白天光女弹幕变成蓝色，该设置修复了这个问题。
 		}
 
 		glowQuality: {
-			Label: Glow Quality
+			Label: 光效质量
 			Tooltip:
 				'''
 				Quality of certain glow effects. Lowering or disabling may marginally improve performance.
