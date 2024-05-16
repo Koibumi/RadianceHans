@@ -2,10 +2,10 @@ Common: {
 	RecallBlocked: 你现在无法使用它
 	RecallBlockedByOpeningAttack: 你必须挺过下一次攻击后才能传送离开！
 	RecallBlockedByMultipleOpeningAttacks: 你必须挺过下{0}次攻击后才能传送离开！
-	InsigniaConflict0: Mutually exclusive with [i:4823]Empress Wings while [i:Radiance/RadiantCharm]Radiant Charm is equipped
-	InsigniaConflict1: No stats will be gained
-	LightsWrathCurseCritter: Light's Wrath prevents you from harming this creature!
-	LightsWrathCurseBoss: Light's Wrath prevents you from harming this entity!
+	InsigniaConflict0: [i:Radiance/RadiantCharm]辐光护符装备时会与[i:4823]女皇之翼冲突
+	InsigniaConflict1: 不会获得任何属性加成
+	LightsWrathCurseCritter: 光之怒阻止你伤害这个生物！
+	LightsWrathCurseBoss: 光之怒阻止你伤害这个实体！
 }
 
 DropConditions: {
@@ -167,31 +167,31 @@ Dialogue: {
 		Default0: 令人钦佩。
 		Default1: 我不得不承认，
 		Default2: 你远比看上去更为强大。
-		Default3: 那些蝴蝶对我而言意义非凡，但如果你不去干扰它们，我们便可无争地共享这个世界。
+		Default3: 那些蝴蝶对我而言意义非凡，但如果你不去惊扰它们，我们便可无争地共享这个世界。
 		Default4: 我有些东西要给你，也许算是代表和平的赠礼？
 		Default5: 不要误用它。
 		Default1Alt: 我必须承认，
 		# Nohit daytime victory
-		Nohit0: Very impressive.
-		Nohit1: You're untouched.
-		Nohit2: Your abilities prove stronger than I thought. Maybe I was wrong to underestimate you.
-		Nohit3: Those butterflies are special to me, but as long as you leave them alone, we can share this world without issue.
-		Nohit4: I have something special for you. I think you deserve it.
-		Nohit5: Your skills are remarkable, but I hope you aren't trying to prove something...
+		Nohit0: 着实令人钦佩。
+		Nohit1: 你毫发无损。
+		Nohit2: 你的能力远比我想象的更为强大，也许我将你严重低估了。
+		Nohit3: 那些蝴蝶对我而言意义非凡，但如果你不去惊扰它们，我们便可无争地共享这个世界。
+		Nohit4: 我有些特别的东西要给你，我想这是你应得的。
+		Nohit5: 你的技巧很出色，但我希望你这并不是在证明什么东西……
 		# Secret victory
-		Secret0: Unbelievable. You're still alive.
-		Secret1: I feared this day would come eventually.
-		Secret2: You are something which I have not seen before. It seems no matter how many times I strike you down, you only come back stronger.
-		Secret3: Your skill grows quickly, too. Although you may not be able to kill me, it appears I am already not strong enough to end you, either.
-		Secret4: I do not have the strength to fight you any longer, so you have my concession, and I will offer you one last reward. Perhaps it will make up for the pain I have caused you.
-		Secret5: I now bestow upon you my final gift. Will it mark the end of your journey?
+		Secret0: 难以置信，你居然还活着。
+		Secret1: 我所担心的这一天最终还是到来了。
+		Secret2: 我以前从未见过如同你这般的事物。看来无论我击败你多少次，你最终回来时也只会更加强大。
+		Secret3: 而你的技巧也在迅速提升。虽然你也许无法杀死我，但我的实力已不足以将你毁灭了。
+		Secret4: 我已没有余力与你战斗了，因此我会做出让步。我将会给你最后的奖励，也许这能弥补我给你带来的痛苦。
+		Secret5: 现在，我将我最后的礼物送给你。它又是否会标志着你旅途的结束？
 		# Secret nohit victory
-		SecretNohit0: No. This can't be happening!
-		SecretNohit1: With the full force of my abilities, I couldn't hit you even a single time?!
-		SecretNohit2: ...
-		SecretNohit3: I believed my power was absolute. How arrogant that seems now...
-		SecretNohit4: I have a gift for you as usual, but your recent performance makes me question whether it will be of any use.
-		SecretNohit5: It is yours, regardless.
+		SecretNohit0: 不，绝无可能！
+		SecretNohit1: 已用尽了全部的力量，我却仍然无法伤你分毫？！
+		SecretNohit2: ……
+		SecretNohit3: 我一直相信我的力量无可匹敌。但现在看来，这是多么的傲慢……
+		SecretNohit4: 像往常一样，我给你准备了一份礼物，但你刚才的表现让我开始怀疑对你而言，它是否有任何用途。
+		SecretNohit5: 无论如何，它现在是你的了。
 		# Regular nighttime victory but under a very short kill time, complains about it. {0} is the time in seconds
 		NighttimeTooFast0: It's over already?
 		NighttimeTooFast1: "{0}{^0:second;seconds}? I hate nighttime..."
