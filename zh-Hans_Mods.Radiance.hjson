@@ -39,8 +39,8 @@ Buffs: {
 	}
 
 	RadiantKaleidoscope: {
-		DisplayName: Radiant Kaleidoscope
-		Description: You shouldn't be able to see this
+		DisplayName: 辐光万花筒
+		Description: 你不应该看到这个
 	}
 
 	Ruin: {
@@ -53,8 +53,7 @@ Buffs: {
 
 Items: {
 	AnomalousArtifact: {
-		DisplayName: Light's Wrath
-		Tooltip: "\n\n\n\n\n"
+		DisplayName: 光之怒
 		SpeedTooltip: Increases player speed and reach
 		ShieldTooltip: Provides a shield that blocks at least one instance of damage every {0} seconds and prevents most debuffs while active
 		OnHitTooltip: Projectile attacks have a chance to lifesteal and Radiant Beams periodically appear while attacking
@@ -69,7 +68,7 @@ Items: {
 		DisplayName: 辉晶铃铛
 		Tooltip: "\n\n"
 		NormalTooltip: 召唤光之女皇
-		CrackedTooltip: 召唤光之女皇的巅峰状态
+		CrackedTooltip: 召唤巅峰状态的光之女皇
 		CrackedTooltipCursed: 你在自取灭亡。
 		UnsummonTooltip: 练习模式：再次使用以解除
 		OnlyUseDuringDayTooltip: 仅能在白天使用
@@ -81,7 +80,7 @@ Items: {
 		DisplayName: 辐光护符
 		Tooltip:
 			'''
-			将太阳之力注入棱晶物品中
+			将太阳之力注入棱镜物品中
 			-
 			'''
 		HiddenWarningTooltip: 将其应用于某只特定的昆虫可能会产生灾难性的后果……
@@ -125,9 +124,9 @@ Projectiles: {
 	Gift.DisplayName: 礼物
 	MeltingLight.DisplayName: 熔融之光
 	RadiantBeam.DisplayName: 辐光射线
-	RadiantBolt.DisplayName: 聚光
-	EventideLaser.DisplayName: 瞬变长枪
-	TransientLance.DisplayName: 瞬变长枪
+	RadiantBolt.DisplayName: 聚集之光
+	EventideLaser.DisplayName: 瞬闪长枪
+	TransientLance.DisplayName: 瞬闪长枪
 }
 
 Dialogue: {
@@ -151,13 +150,13 @@ Dialogue: {
 	BellCutscene0: 你要是再这样下去，这些生物都要灭绝了。
 	BellCutsceneAlt0: 哈，你是真的很讨厌这些蝴蝶是吗？
 	BellCutscene1: 我有个点子。
-	BellCutsceneAlt1: 我有个解决办法。
+	BellCutsceneAlt1: 我有个解决方案。
 	BellCutscene2: 你摇动一下这个来召唤我，怎么样？
 
 	Victory: {
 		# Empowered nighttime (only possible with custom setting, no major rewards)
 		Invalid0: ……
-		Invalid1: 这就没了？
+		Invalid1: 这就是全部了？
 		Invalid2: 这次我的力量可有点令人失望，不是吗？
 		Invalid3: 好吧，我想我应该给你点奖励。
 		Invalid4: 如果你想要更丰厚的奖励，你应该在我能力还没那么弱的时候挑战我。
@@ -167,11 +166,11 @@ Dialogue: {
 		# Regular daytime victory
 		Default0: 令人钦佩。
 		Default1: 我不得不承认，
-		Default2: 你远比看上去更加强大。
-		Default3: Those butterflies are special to me, but as long as you leave them alone, we can share this world without issue.
-		Default4: I have something for you. An offering of peace, perhaps?
-		Default5: Do not misuse it.
-		Default1Alt: I must admit,
+		Default2: 你远比看上去更为强大。
+		Default3: 那些蝴蝶对我而言意义非凡，但如果你不去干扰它们，我们便可无争地共享这个世界。
+		Default4: 我有些东西要给你，也许算是代表和平的赠礼？
+		Default5: 不要误用它。
+		Default1Alt: 我必须承认，
 		# Nohit daytime victory
 		Nohit0: Very impressive.
 		Nohit1: You're untouched.
