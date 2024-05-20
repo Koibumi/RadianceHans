@@ -15,8 +15,8 @@ DropConditions: {
 
 DeathMessages: {
 	# Ruin death messages. {0} is the player's name, {1} is the killing entity's name (NPC/Projectile), {2} is the world name
-	RuinDeath0: "{0} was obliterated from existence by {1}."
-	RuinDeath1: "{0} was annihilated by {1}."
+	RuinDeath0: "{0}被{1}从现实中抹去。"
+	RuinDeath1: "{0}被{1}摧毁了。"
 	RuinDeath2: "{0} was erased by {1}."
 	RuinDeath3: "{0} was immaterialized by {1}."
 	RuinDeath4: "{0} was sent to the void by {1}."
@@ -184,14 +184,14 @@ Dialogue: {
 		Secret2: 我以前从未见过如同你这般的事物。看来无论我击败你多少次，你最终回来时也只会更加强大。
 		Secret3: 而你的技巧也在迅速提升。虽然你也许无法杀死我，但我的实力已不足以将你毁灭了。
 		Secret4: 我已没有余力与你战斗了，因此我会做出让步。我将会给你最后的奖励，也许这能弥补我给你带来的痛苦。
-		Secret5: 现在，我将我最后的礼物送给你。它又是否会标志着你旅途的结束？
+		Secret5: 现在，我将我最后的礼物赠予你。它又是否会标志着你旅途的结束？
 		# Secret nohit victory
 		SecretNohit0: 不，绝无可能！
 		SecretNohit1: 我已用尽了全部的力量，却仍然无法伤你分毫？！
 		SecretNohit2: ……
-		SecretNohit3: 我一直相信我的力量无可匹敌。但现在看来，这是多么的傲慢……
-		SecretNohit4: 像往常一样，我给你准备了一份礼物，但你刚才的表现让我开始怀疑对你而言，它是否有任何用途。
-		SecretNohit5: 无论如何，它现在是你的了。
+		SecretNohit3: 我一直相信我的力量无人能敌。但现在看来，这是何等的傲慢……
+		SecretNohit4: 像往常一样，我给你准备了一份礼物，但你刚才的表现让我开始怀疑对你而言，它可能已经没什么用了。
+		SecretNohit5: 不管怎么说，它现在属于你了。
 		# Regular nighttime victory but under a very short kill time, complains about it. {0} is the time in seconds
 		NighttimeTooFast0: 结束了？
 		NighttimeTooFast1: "{0}{^0:second;seconds}？我讨厌夜晚……"
@@ -201,13 +201,13 @@ Dialogue: {
 		NighttimeTerraprisma1: 你是想让我为此钦佩你吗？
 	}
 
-	Phase3Transform0: Already?
-	Phase3Transform1: How can this be possible?
-	Phase3Transform2: How is it that you continue to survive, even as I push my abilities closer and closer to their limits?
-	Phase3Transform3: ...No.
-	Phase3Transform4: I will not yield to you so easily.
-	Phase3Transform5: If you wish to win this battle, you will have to endure every last ounce of my strength.
-	Phase3Transform6: This isn't over yet.
+	Phase3Transform0: 哈？
+	Phase3Transform1: 这怎么可能？
+	Phase3Transform2: 我已将我的能力迫至极限，你又是怎么活下来的？
+	Phase3Transform3: ……不。
+	Phase3Transform4: 我可不会轻易向你投降。
+	Phase3Transform5: 倘若你想要赢得这场战斗，你便必须承受我的每一份力量。
+	Phase3Transform6: 还没完呢。
 	Phase3Transform0Alt: That quickly?
 }
 
@@ -332,7 +332,7 @@ Configs: {
 		}
 
 		debugMode: {
-			Label: Debug Mode
+			Label: Debug模式
 			Tooltip: Don't turn this on unless you know what you're doing.
 		}
 
