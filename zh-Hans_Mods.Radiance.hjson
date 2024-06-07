@@ -2,7 +2,7 @@ Common: {
 	RecallBlocked: 你现在无法使用它
 	RecallBlockedByOpeningAttack: 你必须挺过下一次攻击后才能传送离开！
 	RecallBlockedByMultipleOpeningAttacks: 你必须挺过下{0}次攻击后才能传送离开！
-	InsigniaConflict0: [i:Radiance/RadiantCharm]辐光护符装备时会与[i:4823]女皇之翼冲突
+	InsigniaConflict0: [i:Radiance/RadiantCharm]辐光神韵装备时会与[i:4823]女皇之翼冲突
 	InsigniaConflict1: 不会获得任何属性加成
 	LightsWrathCurseCritter: 神光忿怒阻止你伤害这个生物！
 	LightsWrathCurseBoss: 神光忿怒阻止你伤害这个实体！
@@ -17,7 +17,7 @@ DeathMessages: {
 	# Ruin death messages. {0} is the player's name, {1} is the killing entity's name (NPC/Projectile), {2} is the world name
 	RuinDeath0: "{0}被{1}从现实中抹去。"
 	RuinDeath1: "{0}被{1}摧毁了。"
-	RuinDeath2: "{0} was erased by {1}."
+	RuinDeath2: "{0}被{1}抹除了。"
 	RuinDeath3: "{0} was immaterialized by {1}."
 	RuinDeath4: "{0} was sent to the void by {1}."
 	RuinDeath5: "{0} was deleted by {1}"
@@ -34,8 +34,8 @@ DeathMessages: {
 
 Buffs: {
 	ArtifactShielded: {
-		DisplayName: Recently Protected
-		Description: You were shielded from damage
+		DisplayName: 闪瞬之护
+		Description: 你被保护不受伤害
 	}
 
 	RadiantKaleidoscope: {
@@ -44,24 +44,24 @@ Buffs: {
 	}
 
 	Ruin: {
-		DisplayName: Ruin
-		Description: "[c/fff6b7:All attacks that inflict this debuff now instantly kill you instead]"
+		DisplayName: 寂灭
+		Description: "[c/fff6b7:现在所有会造成该debuff的攻击都会将你秒杀]"
 	}
 
-	ChaosStateLifestealTooltip: "[c/ff30c0:Any life lost will stolen, healing your attacker!]"
+	ChaosStateLifestealTooltip: "[c/ff30c0:失去的生命将会被窃取，以治疗你的攻击者！]"
 }
 
 Items: {
 	AnomalousArtifact: {
 		DisplayName: 神光忿怒
-		SpeedTooltip: Increases player speed and reach
-		ShieldTooltip: Provides a shield that blocks at least one instance of damage every {0} seconds and prevents most debuffs while active
-		OnHitTooltip: Projectile attacks have a chance to lifesteal and Radiant Beams periodically appear while attacking
-		CurseTooltip: With a couple strings attached...
-		PerfectTooltip: Perfected.
-		PerfectExpandedTooltip: Perfected. [Ability strength increased {0}%]
-		FlavorText0: "'Was it worth the struggle?'"
-		PerfectFlavorText0: "'You don't value your sanity, do you?'"
+		SpeedTooltip: 增加玩家的速度与挖掘范围
+		ShieldTooltip: 给予一个护盾，每{0}秒阻挡一次伤害，激活时免疫大部分debuff。
+		OnHitTooltip: 弹幕攻击有概率偷取生命，攻击会定期出现辐光射线
+		CurseTooltip: 伴随着一些代价......
+		PerfectTooltip: 无暇。
+		PerfectExpandedTooltip: 无暇。[能力强度增加{0}%]
+		FlavorText0: "'这场斗争真的值得吗？'"
+		PerfectFlavorText0: "'你并不珍视你的理智，不是吗？'"
 	}
 
 	CrystalBell: {
@@ -101,23 +101,23 @@ RadiantCharmSynergies: {
 		'''
 		无限的飞行时间，更快的加速度和飞行速度
 		在水中可快速移动，并在一定程度上使太空重力恢复正常
-		Hold DOWN to hover, or UP to ascend faster and descend slower
+		按住下键悬停，按住上键可更快地上升或更慢地下降
 		'''
 	RadiantEventide:
 		'''
-		Homing and intangible projectiles
-		Explodes after piercing once
+		追踪和无形的弹幕
+		每次穿透后产生爆炸
 		'''
-	RadiantEventideAlt: Fires a long piercing laser echoed by up to {0} small beams
-	RadiantKaleidoscope: Autoswing and extended reach unhindered by tiles
-	RadiantKaleidoscopeCritChanceTooltip: "{0}% summon tag critical strike chance"
+	RadiantEventideAlt: 发射一道很长的穿透激光，伴随着{0}条额外的小激光。
+	RadiantKaleidoscope: 自动挥舞，延伸范围不会受物块阻挡
+	RadiantKaleidoscopeCritChanceTooltip: "{0}%的召唤标记暴击率"
 	RadiantNightglow:
 		'''
-		Stronger homing and intangible projectiles
-		Explodes instead of piercing
+		拥有更强的追踪能力和无形的弹幕
+		爆炸将会代替穿透
 		'''
-	RadiantStarlight: Releases homing lights and can strike through tiles
-	RadiantTerraprisma: Attacks faster, farther, and unaffected by tiles
+	RadiantStarlight: 释放追踪的光芒，并且可以穿透物块
+	RadiantTerraprisma: 攻击更快、更远，且不受物块影响。
 }
 
 Projectiles: {
@@ -130,16 +130,16 @@ Projectiles: {
 }
 
 Dialogue: {
-	PostSummonSecret0: 这是我送给你的礼物……
+	PostSummonSecret0: 这是我送给你的礼物......
 	PostSummonSecret1: 好了。
 	PostSummonSecret2: 准备好目睹我真正的实力了吗？
 
 	PostOpeningAttack: {
 		FirstTry0: 真是敏捷。
-		FirstTry1: 你的技巧真是无比出色。
+		FirstTry1: 你的技巧无比出色。
 		FirstTry2: 让我看看你还能坚持多久……
 		# --
-		FewTries0: 啊哈，还没死？
+		FewTries0: 哈，还没死？
 		FewTries1: 我希望你能明白这会给你带来什么。
 		# --
 		ManyTries0: 你活下来了。
