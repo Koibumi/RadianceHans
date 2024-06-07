@@ -18,12 +18,12 @@ DeathMessages: {
 	RuinDeath0: "{0}被{1}从现实中抹去。"
 	RuinDeath1: "{0}被{1}摧毁了。"
 	RuinDeath2: "{0}被{1}抹除了。"
-	RuinDeath3: "{0} was immaterialized by {1}."
-	RuinDeath4: "{0} was sent to the void by {1}."
-	RuinDeath5: "{0} was deleted by {1}"
-	RuinDeath6: "{0} was evaporated into nonexistence by {1}"
-	RuinDeath0Alt: "{0} was banished from existence by {1}."
-	RuinDeath2Alt: "{0} was erased from {2} by {1}."
+	RuinDeath3: "{0}的实体被{1}消除了。"
+	RuinDeath4: "{0}被{1}送到了虚空中。"
+	RuinDeath5: "{0}被删除了，凶手是{1}。"
+	RuinDeath6: "{0}被{1}蒸发至无形了。"
+	RuinDeath0Alt: "{0}被{1}放逐至现实之外。"
+	RuinDeath2Alt: "{0}被从{2}中删除了，凶手是{1}。"
 	# Sun Dance death messages. {0} is the player's name, contact damage variant is occasionally used when the player dies to boss contact damage instead of projectiles
 	SunDanceContactDamageRare: "{0}得到了一个并不怎么舒服的温暖拥抱。"
 	SunDance0: "{0}坠入烈日之中。."
@@ -229,18 +229,18 @@ Configs: {
 			Label: 光效质量
 			Tooltip:
 				'''
-				Quality of certain glow effects. Lowering or disabling may marginally improve performance.
+				某些发光效果的质量，降低或禁用可能可以略微提高性能。
 				-
-				Higher: Slightly better blending when multiple glow sources overlap
-				Normal: Default
-				Off: Disabled completely
+				高：当多个光源重合时会有更好的混合效果
+				正常：默认
+				关闭：完全禁用
 				-
 				'''
 		}
 
 		reducedFlashing: {
-			Label: Reduced Flashing
-			Tooltip: Disables some intense flashing effects.
+			Label: 减少闪光
+			Tooltip: 禁用一些过强的闪光效果。
 		}
 
 		forceFiltersEnabled: {
@@ -267,7 +267,7 @@ Configs: {
 	}
 
 	World: {
-		DisplayName: World
+		DisplayName: 世界
 
 		alwaysUseHardAttacks: {
 			Label: Use Daytime Attacks at Night
@@ -333,39 +333,39 @@ Configs: {
 
 		debugMode: {
 			Label: Debug模式
-			Tooltip: Don't turn this on unless you know what you're doing.
+			Tooltip: 不要开启这个，除非你清楚你在干什么。
 		}
 
-		GameplayTweaksHeader: Gameplay Tweaks
-		ItemTweaksHeader: Item Tweaks
-		MiscHeader: Misc
+		GameplayTweaksHeader: 游戏玩法调整
+		ItemTweaksHeader: 物品调整
+		MiscHeader: 其他
 	}
 
 	RadiantCharmNerfSize: {
 		Tooltip: ""
-		Large.Label: Large
-		Medium.Label: Medium
-		None.Label: None
+		Large.Label: 大
+		Medium.Label: 中
+		None.Label: 无
 	}
 
 	LightsWrathDebuffImmunity: {
 		Tooltip: ""
-		Off.Label: Off
-		Reduced.Label: Reduced
-		Normal.Label: Normal
+		Off.Label: 关闭
+		Reduced.Label: 降低
+		Normal.Label: 正常
 	}
 
 	GlowQuality: {
 		Tooltip: ""
-		Higher.Label: Higher
-		Normal.Label: Normal
-		Off.Label: Disabled
+		Higher.Label: 高
+		Normal.Label: 正常
+		Off.Label: 关闭
 	}
 
 	AttackDifficulty: {
 		Tooltip: ""
-		World.Label: World-Based
-		Easier.Label: Easier
-		Harder.Label: Harder
+		World.Label: 基于世界
+		Easier.Label: 简单
+		Harder.Label: 困难
 	}
 }
