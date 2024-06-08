@@ -56,7 +56,7 @@ Items: {
 		DisplayName: 神光忿怒
 		SpeedTooltip: 增加玩家的速度与挖掘范围
 		ShieldTooltip: 给予一个护盾，每{0}秒阻挡一次伤害，激活时免疫大部分debuff。
-		OnHitTooltip: 弹幕攻击有概率偷取生命，攻击会定期出现辐光射线
+		OnHitTooltip: 弹幕攻击有概率偷取生命，攻击会定期出现辐光光束
 		CurseTooltip: 伴随着一些代价......
 		PerfectTooltip: 无暇。
 		PerfectExpandedTooltip: 无暇。[能力强度增加{0}%]
@@ -121,12 +121,12 @@ RadiantCharmSynergies: {
 }
 
 Projectiles: {
-	Gift.DisplayName: 礼物
+	Gift.DisplayName: 赠礼
 	MeltingLight.DisplayName: 熔融之光
 	RadiantBeam.DisplayName: 辐光射线
 	RadiantBolt.DisplayName: 聚集之光
-	EventideLaser.DisplayName: 瞬闪长枪
-	TransientLance.DisplayName: 瞬闪长枪
+	EventideLaser.DisplayName: 瞬变长枪
+	TransientLance.DisplayName: 瞬变长枪
 }
 
 Dialogue: {
@@ -254,13 +254,13 @@ Configs: {
 		}
 
 		skyBrightness: {
-			Label: Sky Brightness
-			Tooltip: Increases how much the sky darkens in the presence of the boss.
+			Label: 天空亮度
+			Tooltip: 增加boss存活时天空变暗的程度
 		}
 
 		lightsWrathBeamVolume: {
-			Label: Light's Wrath Beam Volume
-			Tooltip: Makes the beam from Light's Wrath quieter.
+			Label: 神光忿怒光束体积
+			Tooltip: 让神光忿怒的光束更加柔和。
 		}
 
 		VisualTweaksHeader: Visual Tweaks
@@ -270,64 +270,64 @@ Configs: {
 		DisplayName: 世界
 
 		alwaysUseHardAttacks: {
-			Label: Use Daytime Attacks at Night
+			Label: 在夜晚使用白天攻击
 			Tooltip:
 				'''
-				Can be useful for practice.
-				During nighttime, damage is substantially lower and the Ruin debuff is not applied.
-				Primary rewards are removed and secondary rewards are reduced while this is enabled.
+				可用于练习。
+				在夜晚，伤害会明显降低，且不会施加寂灭debuff
+				启用时，主要奖励将会被移除，次要奖励会减少
 				'''
 		}
 
 		phasePractice: {
-			Label: Phase Practice
+			Label: 阶段练习
 			Tooltip:
 				'''
-				Starts the fight in the selected phase. The fight ends when the selected phase is finished.
-				-1: Off. The fight will run in its entirety and you will recieve full rewards.
+				在选定的阶段开始战斗。当选定的阶段结束时，战斗结束。
+				-1: 关闭。战斗将全部进行，你会获得全部的奖励
 				0: Opening attack (if it is available, otherwise phase 1)
-				1: Phase 1
-				2: Phase 2
-				3: Phase 3 (if it is available, otherwise phase 2)
+				1: 第一阶段
+				2: 第二阶段
+				3: 第三阶段(if it is available, otherwise phase 2)
 				'''
 		}
 
 		nighttimeTerraprisma: {
-			Label: Night Time Terraprisma
-			Tooltip: Allows the Terraprisma (and potentially other mods' daytime-exclusive items) to drop at night if the player hasn't been hit.
+			Label: 夜晚泰拉棱镜
+			Tooltip: 如果玩家未被击中过，泰拉棱镜(或者其他mod的白天专属物品)将会在夜晚掉落。
 		}
 
 		attackDifficulty: {
-			Label: Attack Difficulty
+			Label: 攻击难度
 			Tooltip:
 				'''
-				Difficulty is normally determined by world difficulty, but you can force a specific difficulty here.
-				World-Based: Attack difficulty is determined by world difficulty. (Default)
-				Easier: Used by Expert and lower. Transient Lances are disabled and Melting Light is less accurate.
-				Harder: Used by Master. All attacks are used, and there are no difficulty reductions.
+				难度通常由世界难度决定，但你可以在此处强制设置特定的难度
+				基于世界: 攻击难度由世界难度决定。（默认）
+				简单: 用于专家或更低难度，瞬变长枪被禁用，熔融之光的精准度降低。
+				困难: 用于大师模式，所有攻击都会被使用，且没有难度降低
 				'''
 		}
 
 		radiantCharmNerf: {
-			Label: Radiant Charm Nerf
+			Label: 辐光神韵平衡
 			Tooltip:
 				'''
-				Reduces the strength of weapons affected by the Radiant Charm to improve compatibility with other mods.
-				None: Post-Zenith
-				Medium: Strong Post-Moonlord
-				Large: Post-Moonlord
+				降低受辐光神韵影响的武器强度，以提高与其他mod的兼容性。
+				无: 天顶后
+				中等: 月亮领主后较强
+				较大: 月亮领主后
 				'''
 		}
 
 		lightsWrathDebuffImmunity: {
-			Label: Light's Wrath Debuff Immunity
+			Label: 神光忿怒debuff免疫
 			Tooltip:
 				'''
-				Light's Wrath prevents debuffs that are curable by the nurse. This can sometimes cause issues with other modded items.
-				Set this to 'Reduced' or 'Off' if your items aren't working.
-				Normal: Only recieve debuffs from item usage
-				Reduced: Only prevent debuffs from external sources. eg: Projectiles
-				Off: Don't prevent debuffs
+				神光忿怒会免疫可被护士治疗的debuff，这可能会导致其他模组的物品出现问题。
+				如果你的物品无法使用，请将它设置为“降低”或“关闭”
+				正常: 仅从物品使用中获得debuff
+				降低: 仅免疫来自外部来源的debuff。例如：弹幕
+				关闭: 不免疫debuff
 				'''
 		}
 
