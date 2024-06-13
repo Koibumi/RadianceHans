@@ -25,7 +25,7 @@ DeathMessages: {
 	RuinDeath0Alt: "{0}被{1}放逐至现实之外。"
 	RuinDeath2Alt: "{0}被从{2}中删除了，凶手是{1}。"
 	# Sun Dance death messages. {0} is the player's name, contact damage variant is occasionally used when the player dies to boss contact damage instead of projectiles
-	SunDanceContactDamageRare: "{0}得到了一个并不怎么舒服的温暖拥抱。"
+	SunDanceContactDamageRare: "{0}得到了一个过分温暖的拥抱。"
 	SunDance0: "{0}坠入烈日之中。."
 	SunDance1: "{0}被蒸发了。"
 	SunDance2: "{0}回归星尘。"
@@ -45,7 +45,7 @@ Buffs: {
 
 	Ruin: {
 		DisplayName: 寂灭
-		Description: "[c/fff6b7:现在所有会造成该debuff的攻击都会将你秒杀]"
+		Description: "[c/fff6b7:现在所有会造成此减益的攻击都会将你秒杀]"
 	}
 
 	ChaosStateLifestealTooltip: "[c/ff30c0:失去的生命将会被窃取，以治疗你的攻击者！]"
@@ -54,14 +54,15 @@ Buffs: {
 Items: {
 	AnomalousArtifact: {
 		DisplayName: 神光忿怒
-		SpeedTooltip: 增加玩家的速度与挖掘范围
-		ShieldTooltip: 给予一个护盾，每{0}秒阻挡一次伤害，激活时免疫大部分debuff。
+		Tooltip: "\n\n\n\n\n"
+		SpeedTooltip: 增加移动速度和放置、挖掘及拾取距离
+		ShieldTooltip: 给予一个护盾，每{0}秒阻挡一次伤害，激活时免疫大部分减益
 		OnHitTooltip: 弹幕攻击有概率偷取生命，攻击会定期出现辐光光束
-		CurseTooltip: 伴随着一些代价......
-		PerfectTooltip: 无暇。
-		PerfectExpandedTooltip: 无暇。[能力强度增加{0}%]
-		FlavorText0: "'这场斗争真的值得吗？'"
-		PerfectFlavorText0: "'你并不珍视你的理智，不是吗？'"
+		CurseTooltip: 伴随着一些代价……
+		PerfectTooltip: 臻于完美。
+		PerfectExpandedTooltip: 臻于完美。[能力已提升{0}%]
+		FlavorText0: "“这场斗争真的值得吗？”"
+		PerfectFlavorText0: "“你并不珍视你的理智，不是吗？”"
 	}
 
 	CrystalBell: {
@@ -73,7 +74,7 @@ Items: {
 		UnsummonTooltip: 练习模式：再次使用以解除
 		OnlyUseDuringDayTooltip: 仅能在白天使用
 		OnlyUseDuringDayDontDigUpTooltip: 仅能在白天地表使用
-		CanUseAtNightTooltip: 在配置中设置后可以在晚上使用
+		CanUseAtNightTooltip: 已在配置中允许晚上使用
 	}
 
 	RadiantCharm: {
@@ -101,29 +102,29 @@ RadiantCharmSynergies: {
 		'''
 		无限的飞行时间，更快的加速度和飞行速度
 		在水中可快速移动，并在一定程度上使太空重力恢复正常
-		按住下键悬停，按住上键可更快地上升或更慢地下降
+		按DOWN可悬停，按UP可加速上升或减速下降
 		'''
 	RadiantEventide:
 		'''
-		追踪和无形的弹幕
+		弹幕可以追踪和穿过物块
 		每次穿透后产生爆炸
 		'''
 	RadiantEventideAlt: 发射一道很长的穿透激光，伴随着{0}条额外的小激光。
-	RadiantKaleidoscope: 自动挥舞，延伸范围不会受物块阻挡
-	RadiantKaleidoscopeCritChanceTooltip: "{0}%的召唤标记暴击率"
+	RadiantKaleidoscope: 自动挥舞，范围增大，且不会受物块阻挡
+	RadiantKaleidoscopeCritChanceTooltip: "{0}%召唤标记暴击率"
 	RadiantNightglow:
 		'''
-		拥有更强的追踪能力和无形的弹幕
-		爆炸将会代替穿透
+		拥有更强的追踪能力并且可以穿过物块
+		不再穿透而是发生爆炸
 		'''
-	RadiantStarlight: 释放追踪的光芒，并且可以穿透物块
-	RadiantTerraprisma: 攻击更快、更远，且不受物块影响。
+	RadiantStarlight: 释放追踪的光芒，并且可以穿过物块
+	RadiantTerraprisma: 攻击更快、更远，且不受物块影响
 }
 
 Projectiles: {
 	Gift.DisplayName: 赠礼
 	MeltingLight.DisplayName: 熔融之光
-	RadiantBeam.DisplayName: 辐光射线
+	RadiantBeam.DisplayName: 辐光光束
 	RadiantBolt.DisplayName: 聚集之光
 	EventideLaser.DisplayName: 瞬变长枪
 	TransientLance.DisplayName: 瞬变长枪
@@ -194,7 +195,7 @@ Dialogue: {
 		SecretNohit5: 不管怎么说，它现在属于你了。
 		# Regular nighttime victory but under a very short kill time, complains about it. {0} is the time in seconds
 		NighttimeTooFast0: 结束了？
-		NighttimeTooFast1: "{0}{^0:second;seconds}？我讨厌夜晚……"
+		NighttimeTooFast1: "才{0}秒？我讨厌夜晚……"
 		NighttimeTooFast2: 我们就不能在外边更亮堂时再战斗吗？
 		# Regular nighttime victory with no damage, gives Terraprisma (and complains about it)
 		NighttimeTerraprisma0: 想要炫耀自己的实力？
@@ -208,12 +209,12 @@ Dialogue: {
 	Phase3Transform4: 我可不会轻易向你投降。
 	Phase3Transform5: 倘若你想要赢得这场战斗，你便必须承受我的每一份力量。
 	Phase3Transform6: 还没完呢。
-	Phase3Transform0Alt: That quickly?
+	Phase3Transform0Alt: 这么快？
 }
 
 Configs: {
 	Client: {
-		DisplayName: 客户端
+		DisplayName: 客户端配置
 
 		nighttimeGlow: {
 			Label: 夜间光效
@@ -222,7 +223,7 @@ Configs: {
 
 		blueFix: {
 			Label: 蓝色修复
-			Tooltip: 出于未知原因，tModloader在某些时候让白天光女弹幕变成蓝色，该设置修复了这个问题。
+			Tooltip: 出于未知原因，tModloader某些时候会让白天光之女皇的弹幕变成蓝色，此设置可用于修复这个问题。
 		}
 
 		glowQuality: {
@@ -244,12 +245,12 @@ Configs: {
 		}
 
 		forceFiltersEnabled: {
-			Label: Force Filters Enabled
+			Label: 强制开启滤镜
 			Tooltip:
 				'''
-				Forces filters to be enabled, even if lighting is set to retro/trippy.
-				Prevents certain effects from being invisible.
-				Disable this if another mod is trying to apply the same change.
+				即使光照设置为复古或迷幻，也会强制开启滤镜。
+				这可以防止一些特定效果变得不可见。
+				如果其他模组进行了相似的更改，请关闭此选项。
 				'''
 		}
 
@@ -259,23 +260,23 @@ Configs: {
 		}
 
 		lightsWrathBeamVolume: {
-			Label: 神光忿怒光束体积
-			Tooltip: 让神光忿怒的光束更加柔和。
+			Label: 神光忿怒光束音量
+			Tooltip: 让神光忿怒的光束更加安静。
 		}
 
-		VisualTweaksHeader: Visual Tweaks
+		VisualTweaksHeader: 视觉调整
 	}
 
 	World: {
-		DisplayName: 世界
+		DisplayName: 世界配置
 
 		alwaysUseHardAttacks: {
 			Label: 在夜晚使用白天攻击
 			Tooltip:
 				'''
 				可用于练习。
-				在夜晚，伤害会明显降低，且不会施加寂灭debuff
-				启用时，主要奖励将会被移除，次要奖励会减少
+				在夜晚，伤害会明显降低，且不会施加寂灭减益。
+				启用时，主要奖励将会被移除，次要奖励会减少。
 				'''
 		}
 
@@ -284,11 +285,11 @@ Configs: {
 			Tooltip:
 				'''
 				在选定的阶段开始战斗。当选定的阶段结束时，战斗结束。
-				-1: 关闭。战斗将全部进行，你会获得全部的奖励
-				0: Opening attack (if it is available, otherwise phase 1)
+				-1: 关闭。战斗将全部进行，你会获得全部的奖励。
+				0: 开幕攻击（如果没有开幕攻击，将替换为第一阶段）
 				1: 第一阶段
 				2: 第二阶段
-				3: 第三阶段(if it is available, otherwise phase 2)
+				3: 第三阶段（如果没有第三阶段，将替换为第二阶段）
 				'''
 		}
 
@@ -301,15 +302,15 @@ Configs: {
 			Label: 攻击难度
 			Tooltip:
 				'''
-				难度通常由世界难度决定，但你可以在此处强制设置特定的难度
+				难度通常由世界难度决定，但你可以在此处强制设置特定的难度。
 				基于世界: 攻击难度由世界难度决定。（默认）
 				简单: 用于专家或更低难度，瞬变长枪被禁用，熔融之光的精准度降低。
-				困难: 用于大师模式，所有攻击都会被使用，且没有难度降低
+				困难: 用于大师模式，所有攻击都会出现，且没有难度降低。
 				'''
 		}
 
 		radiantCharmNerf: {
-			Label: 辐光神韵平衡
+			Label: 辐光神韵削弱
 			Tooltip:
 				'''
 				降低受辐光神韵影响的武器强度，以提高与其他mod的兼容性。
@@ -320,14 +321,14 @@ Configs: {
 		}
 
 		lightsWrathDebuffImmunity: {
-			Label: 神光忿怒debuff免疫
+			Label: 神光忿怒减益免疫
 			Tooltip:
 				'''
-				神光忿怒会免疫可被护士治疗的debuff，这可能会导致其他模组的物品出现问题。
+				神光忿怒会免疫可被护士治疗的减益，这可能会导致其他模组的物品出现问题。
 				如果你的物品无法使用，请将它设置为“降低”或“关闭”
-				正常: 仅从物品使用中获得debuff
-				降低: 仅免疫来自外部来源的debuff。例如：弹幕
-				关闭: 不免疫debuff
+				正常: 仅从物品使用中获得减益
+				降低: 仅免疫来自外部来源的减益。例如：弹幕
+				关闭: 不免疫减益
 				'''
 		}
 
@@ -343,8 +344,8 @@ Configs: {
 
 	RadiantCharmNerfSize: {
 		Tooltip: ""
-		Large.Label: 大
-		Medium.Label: 中
+		Large.Label: 较大
+		Medium.Label: 中等
 		None.Label: 无
 	}
 
