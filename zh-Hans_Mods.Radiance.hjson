@@ -40,7 +40,7 @@ Buffs: {
 
 	RadiantKaleidoscope: {
 		DisplayName: 辐光万花筒
-		Description: 你不应该看到这个
+		Description: 你不该看到这个
 	}
 
 	Ruin: {
@@ -58,11 +58,11 @@ Items: {
 		SpeedTooltip: 增加移动速度和放置、挖掘及拾取距离
 		ShieldTooltip: 给予一个护盾，每{0}秒阻挡一次伤害，激活时免疫大部分减益
 		OnHitTooltip: 弹幕攻击有概率偷取生命，攻击会定期出现辐光光束
-		CurseTooltip: 伴随着一些代价……
+		CurseTooltip: 需要付出一些代价……
 		PerfectTooltip: 臻于完美。
 		PerfectExpandedTooltip: 臻于完美。[能力已提升{0}%]
-		FlavorText0: "“这场斗争真的值得吗？”"
-		PerfectFlavorText0: "“你并不珍视你的理智，不是吗？”"
+		FlavorText0: "这场斗争真的值得吗？"
+		PerfectFlavorText0: "你并不珍视你的理智，不是吗？"
 	}
 
 	CrystalBell: {
@@ -74,7 +74,7 @@ Items: {
 		UnsummonTooltip: 练习模式：再次使用以解除
 		OnlyUseDuringDayTooltip: 仅能在白天使用
 		OnlyUseDuringDayDontDigUpTooltip: 仅能在白天地表使用
-		CanUseAtNightTooltip: 已在配置中允许晚上使用
+		CanUseAtNightTooltip: 已在配置中允许夜晚使用
 	}
 
 	RadiantCharm: {
@@ -84,7 +84,7 @@ Items: {
 			将太阳之力注入棱镜物品中
 			-
 			'''
-		HiddenWarningTooltip: 将其应用于某只特定的昆虫可能会产生灾难性的后果……
+		HiddenWarningTooltip: 对特定的昆虫使用可能会产生灾难性的后果……
 	}
 
 	RadiantDye: {
@@ -110,11 +110,11 @@ RadiantCharmSynergies: {
 		每次穿透后产生爆炸
 		'''
 	RadiantEventideAlt: 发射一道很长的穿透激光，伴随着{0}条额外的小激光。
-	RadiantKaleidoscope: 自动挥舞，范围增大，且不会受物块阻挡
+	RadiantKaleidoscope: 自动挥舞，范围增大，且不会被物块阻挡
 	RadiantKaleidoscopeCritChanceTooltip: "{0}%召唤标记暴击率"
 	RadiantNightglow:
 		'''
-		拥有更强的追踪能力并且可以穿过物块
+		拥有更强的追踪能力并且可穿过物块
 		不再穿透而是发生爆炸
 		'''
 	RadiantStarlight: 释放追踪的光芒，并且可以穿过物块
@@ -131,7 +131,7 @@ Projectiles: {
 }
 
 Dialogue: {
-	PostSummonSecret0: 这是我送给你的礼物......
+	PostSummonSecret0: 这是我送给你的礼物……
 	PostSummonSecret1: 好了。
 	PostSummonSecret2: 准备好目睹我真正的实力了吗？
 
@@ -149,7 +149,7 @@ Dialogue: {
 	}
 
 	BellCutscene0: 你要是再这样下去，这些生物都要灭绝了。
-	BellCutsceneAlt0: 哈，你是真的很讨厌这些蝴蝶是吗？
+	BellCutsceneAlt0: 哈，你是真的想把这些蝴蝶赶尽杀绝吗？
 	BellCutscene1: 我有个点子。
 	BellCutsceneAlt1: 我有个解决方案。
 	BellCutscene2: 你摇动一下这个来召唤我，怎么样？
@@ -209,7 +209,7 @@ Dialogue: {
 	Phase3Transform4: 我可不会轻易向你投降。
 	Phase3Transform5: 倘若你想要赢得这场战斗，你便必须承受我的每一份力量。
 	Phase3Transform6: 还没完呢。
-	Phase3Transform0Alt: 这么快？
+	Phase3Transform0Alt: 这么快？！
 }
 
 Configs: {
@@ -294,7 +294,7 @@ Configs: {
 		}
 
 		nighttimeTerraprisma: {
-			Label: 夜晚泰拉棱镜
+			Label: 夜晚泰拉棱镜掉落
 			Tooltip: 如果玩家未被击中过，泰拉棱镜(或者其他mod的白天专属物品)将会在夜晚掉落。
 		}
 
